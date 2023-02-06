@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Crimson Text', sherif;
+    color:#000000;
+}
+
+
+html body {
+    background-color:#D3D3D3;
+    margin: 10;
+}
+
+.nav ul{
+    margin: 0;
+
+}
+
+.nav li{
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color:black;
+    text-decoration: none;
+}
+
+.main-nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+}
+
+.S1Header{
+    text-align: center;
+}
+.main-nav li{
+    padding: 0 5%;
+}
+.nav a:hover{
+    background-color:rgba(0,0,0,.3)
+}
+
+.Welcome-LDA{
+    text-align: center;
+    margin:0;
+    font-size: 4em;
+
+}
+.main-header{
+    
+    background-image: url("Images/ddayBoat.jpg");
+    border-radius: 8px;
+    background-position: relative;
+    top: -50px;
+    padding-bottom: 15px;
+}
+
+.pic1{
+    
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 50%;
+    border-radius: 8px;
+}
+
+.pic2{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 60%;
+    border-radius: 8px;
+}
+
+.pic3{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 60%;
+    border-radius: 8px;
+    margin-bottom:2em;
+}
+
+.p{
+    text-align: center;
+    margin: 10 0;
+}
+
+.polaroid {
+    width: 50%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+  
+.container {
+    text-align: center;
+    padding: 10px 20px;
+  }
+
+.org{
+    
+    margin-left:150px;
+    margin-right:150px;
+    display:flex;
+    gap:25px;
+
+}
+
+.profile_image_left{
+    width:500px;
+    float: left;
+    padding:30px;
+}
+
+.profile_image_right{
+    width:500px;
+    float: right;
+    padding:30px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #ffffff;
+    color: #fff;
+    margin-top:auto;
+}
+
+.body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column
+}
