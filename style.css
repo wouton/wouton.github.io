@@ -86,8 +86,9 @@ html body {
 }
 
 .p{
+    display:block;
     text-align: center;
-    margin: 10 0;
+    margin: 50px 50px;
 }
 
 .polaroid {
@@ -136,4 +137,25 @@ html body {
     min-height: 100vh;
     display: flex;
     flex-direction: column
+}
+
+.StoreP1{
+    text-align: center;
+}   
+
+.merch_left{
+    width:300px;
+    float: left;
+    padding:30px;
+}
+
+.merch_right{
+    width:300px;
+    align-items: right;
+    padding:30px;
+}
+
+.h2Header{
+    display: block;
+    margin: 50px 50px;
 }
